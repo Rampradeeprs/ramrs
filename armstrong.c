@@ -9,8 +9,16 @@ while(n!=0)
 r=n%10;
 sum=sum+r*r*r;
 n/=10;
+{
+if(result==n)
+{
+printf("it is armstrong number");
 }
-printf("the armstrong number is");
+else
+{
+  printf("it is not armstrong number");
+}
+}
 }
 
-
+  
